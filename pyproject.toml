@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nofish"
+version = "0.1.0"
+description = ""
+authors = ["Eric Fish <eric.fish@envedabio.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+twofish = {git = "https://github.com/mrefish/twofish"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
